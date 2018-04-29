@@ -25,6 +25,12 @@ def won?(board)
         if board[index1] == "X" && board[index2] == "X" && board[index3] == "X"
           return win_combo
         end
+        if board[index1] == "X" && board[index2] == "X" && board[index3] == "X"
+          return win_combo
+        end
+        if board[index1] == "O" && board[index2] == "O" && board[index3] == "O"
+          return win_combo
+        end
       end
 
 
